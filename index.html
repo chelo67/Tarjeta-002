@@ -25,6 +25,9 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
       rel="stylesheet"
     />
+
+    <script>navigator.serviceWorker.register("service-worker.js")</script> 
+    <link rel="manifest" href="manifest.json" />
   </head>
   <body>
     <div class="contenedor">
@@ -50,19 +53,26 @@
       <!-- Enlaces -->
       <section class="enlaces">
         <div class="columna-uno">
+          
+            <div class="columna">
+              <a href="tel:112223333">
+                <i class="fa-solid fa-phone"></i>
+                <span>112223333</span>
+              </a>
+            </div>
+
           <div class="columna">
-            <i class="fa-solid fa-phone"></i>
-            <span>112223333</span>
+            <a href="mailto:correo@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+              <span>email@email.com</span>
+            </a>
           </div>
 
           <div class="columna">
-            <i class="fa-solid fa-envelope"></i>
-            <span>email@email.com</span>
-          </div>
-
-          <div class="columna">
-            <i class="fa-solid fa-location-dot"></i>
-            <span>direccion 333</span>
+            <a href="https://maps.app.goo.gl/evXD4gHXvqpcuhgP9">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>direccion 333</span>
+            </a>
           </div>
         </div>
 
@@ -70,19 +80,19 @@
         <div class="columna-uno">
           <div class="columna-right">
             <div class="columna-item">
-              <i class="fa-brands fa-linkedin fa-2x"></i>
+              <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin fa-2x"></i></a>
             </div>
           </div>
 
           <div class="columna-right">
             <div class="columna-item">
-              <i class="fa-brands fa-youtube fa-2x"></i>
+              <a href="https://www.youtube.com"><i class="fa-brands fa-youtube fa-2x"></i></a>
             </div>
           </div>
 
           <div class="columna-right">
             <div class="columna-item">
-              <i class="fa-brands fa-square-instagram fa-2x"></i>
+              <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
             </div>
           </div>
         </div>
