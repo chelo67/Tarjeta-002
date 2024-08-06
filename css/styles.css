@@ -93,6 +93,9 @@ header {
     margin-top: -18px;
     margin-right: 10px;
 }
+.enlaces {
+    display: flex;
+}
 .columna-uno {
     width: 50%;
     display: flex;
@@ -101,19 +104,45 @@ header {
     flex-direction: column;
     margin-top: 20px;
     color:#fff;
-    background-color: #000;
-    height: 30px;
+    height: 100%;
     border-radius: 0px 10px 10px 0px;
-    margin-top: 50px;
+    margin-top: 15px;
 }
-.phone {
+.columna{
+    background-color: #000;
     width: 100%;
+    height: 40px;
     color: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 14px;
     font-family: var(--texto-principal);
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 0 12px 12px 0;
+}
+.columna-right{
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    font-family: var(--texto-principal);
+    margin-top: 40px;
+}
+.columna-item {
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    color: var(--color-principal);
 }
  
