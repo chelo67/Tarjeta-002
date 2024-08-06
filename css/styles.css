@@ -93,5 +93,27 @@ header {
     margin-top: -18px;
     margin-right: 10px;
 }
-
+.columna-uno {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+    color:#fff;
+    background-color: #000;
+    height: 30px;
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 50px;
+}
+.phone {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    font-family: var(--texto-principal);
+    margin-top: 50px;
+}
  
